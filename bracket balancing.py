@@ -5,6 +5,7 @@ def is_balanced(expression):
     for char in expression:
         print("Hello world!")
         print("Hello Hashini!")
+        print("Hello nethmi!")
         
 
     return len(stack) == 0  # True if all brackets are closed
