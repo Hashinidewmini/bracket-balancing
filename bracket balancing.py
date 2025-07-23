@@ -3,7 +3,9 @@ def is_balanced(expression):
     brackets = {')': '(', '}': '{', ']': '['}
 
     for char in expression:
+
         print("I like pizza!")
+        print("Hello hello hello")
 
     return len(stack) == 0  # True if all brackets are closed
 
