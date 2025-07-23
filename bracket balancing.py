@@ -3,11 +3,7 @@ def is_balanced(expression):
     brackets = {')': '(', '}': '{', ']': '['}
 
     for char in expression:
-        if char in brackets.values():  # Opening brackets
-            stack.append(char)
-        elif char in brackets.keys():  # Closing brackets
-            if not stack or stack.pop() != brackets[char]:
-                return False
+        print("I like pizza!")
 
     return len(stack) == 0  # True if all brackets are closed
 
